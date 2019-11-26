@@ -69,6 +69,10 @@ img{
 @media screen and (max-width:480px) {
   .row {
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    background-color: lightgrey;
   }
   .container .row h1 {
     width: 100%;
@@ -88,6 +92,7 @@ img{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    color: blue;
   }
   #lezioni {
     font-size: 15px;
@@ -106,6 +111,8 @@ img{
     font-weight: bold;
     text-align: center;
     margin-top: 10px;
+    color:blue;
+
   }
 }
 /* /Media-query blocco-lezioni */
@@ -113,21 +120,51 @@ img{
 @media screen and (max-width:480px) {
   .row {
     width: 100%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px; */
+    background-color: lightgrey;
   }
   #steps .row > .left,
   #steps .row > .central,
   #steps .row > .right {
     width: 100%;
   }
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    width: 100%;
+  }
   #steps .central h3 {
   font-size: 30px;
+  color:blue;
 }
 .central img {
   margin-top: 20px;
+}
+#why .first h3 {
+  font-size: 30px;
+  color:blue;
+}
+#why .second h3 {
+  font-size: 30px;
+  color:blue;
+}
+#why .third h3{
+  font-size: 30px;
+  color:blue;
 }
 #steps {
   font-size: 15px;
   font-weight: bold;
 }
+#why {
+  font-size: 15px;
+  font-weight: bold;
+}
 }
 /* /Media-query blocco-steps */
+/* Media-query blocco-why */
+@media screen and (max-width:480px) {
+
+}
