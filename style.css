@@ -75,34 +75,37 @@ img{
     font-size: 30px;
     text-align: center;
   }
-  .left {
-    width: 496px;
+  #lezioni .row > .left {
+    width: 100%;
   }
   .left img {
-    width: 90%;
+    width: 70%;
     /* display: none; */
     /* vertical-align: middle; */
   }
   .left h3 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
   }
   #lezioni {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
   }
-  .right {
-    width: 496px;
-    /* float: none; */
+  #lezioni .row > .right {
+    width: 100%;
   }
-  .right img {
-    width: 90%;
+    .right img {
+    width: 70%;
+    margin-top: 20px;
     /* vertical-align: middle; */
   }
   .right h3 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
+    margin-top: 10px;
   }
 }
+/* /Media-query blocco-lezioni */
+/* Media-query blocco-steps */
